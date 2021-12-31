@@ -18,8 +18,8 @@ def in_range(l_bound, u_bound, number):
 
 # %%
 #calling the function
-l_bound = input('Enter the lower bound: ')
-u_bound = input('Enter the upper bound: ')
-number = input('Enter the number: ')
+l_bound = int(input('Enter the lower bound: '))
+u_bound = int(input('Enter the upper bound: '))
+number = int(input('Enter the number: '))
 
 in_range(l_bound,u_bound,number)
